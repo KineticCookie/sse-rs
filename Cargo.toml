@@ -1,0 +1,15 @@
+[package]
+name = "ss_client"
+version = "0.1.0"
+authors = ["Bulat Lutfullin <lb6557@gmail.com>"]
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+hyper = "0.11.1"
+tokio-core = "0.1.6"
+tokio-proto = "0.1"
+tokio-service = "0.1"
+tokio-io = "0.1"
+futures = "0.1.14"
